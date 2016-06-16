@@ -3,7 +3,7 @@ cd /opt/context/apache-ivy/
 ant
 
 # prepare ringojs
-git clone https://github.com/ringojs/ringojs.git /opt/ringojs
+git clone https://github.com/ringo/ringojs.git /opt/ringojs
 cd /opt/ringojs/
 
 # prepare
