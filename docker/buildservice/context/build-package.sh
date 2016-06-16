@@ -8,7 +8,6 @@ cd /opt/ringojs/
 
 # prepare
 ant update
-ant package
 ant dpkg
 echo "Copy files ..."
 cp /opt/ringo*.zip /opt/out
