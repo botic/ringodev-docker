@@ -2,6 +2,7 @@
 if [ "$(ls ../artifacts/)" ]; then
    echo "Cleaning artifacts"
    rm ../artifacts/ringo*
+   rm ../artifacts/SHASUMS256*.txt
 fi
 
 # build artifacts
