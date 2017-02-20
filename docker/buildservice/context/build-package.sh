@@ -8,6 +8,7 @@ cd /opt/ringojs/
 
 # prepare
 ant update
+ant pom
 ant dpkg
 echo "Built packages"
 cp /opt/ringo*.zip /opt/out
