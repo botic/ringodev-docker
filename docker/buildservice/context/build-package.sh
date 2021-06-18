@@ -1,19 +1,12 @@
-# install ivy
-cd /opt/context/apache-ivy/
-ant
-
 # prepare ringojs
 git clone https://github.com/ringo/ringojs.git /opt/ringojs
 cd /opt/ringojs/
 
 # prepare
-ant update
-ant pom
-ant dpkg
+./gradlew
 echo "Built packages"
-cp /opt/ringo*.zip /opt/out
-cp /opt/ringo*.tar.gz /opt/out
-cp /opt/*.deb /opt/out
+cp /opt/ringojs/build/distributions/*.zip /opt/out
+cp /opt/ringojs/build/distributions/*.tar.gz /opt/out
 echo "Copied files"
 
 # checksums

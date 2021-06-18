@@ -11,7 +11,6 @@ RUN wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | a
 RUN apt-get update && apt-get install -y \
     adoptopenjdk-8-hotspot \
     git \
-    ant \
     build-essential \
     dpkg-dev \
     debhelper \
