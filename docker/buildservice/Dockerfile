@@ -9,7 +9,7 @@ RUN wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | a
     && add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
 
 RUN apt-get update && apt-get install -y \
-    adoptopenjdk-8-hotspot \
+    adoptopenjdk-11-hotspot \
     git \
     build-essential \
     dpkg-dev \

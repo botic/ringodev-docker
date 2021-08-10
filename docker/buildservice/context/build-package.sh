@@ -3,6 +3,7 @@ git clone https://github.com/ringo/ringojs.git /opt/ringojs
 cd /opt/ringojs/
 
 # prepare
+java -version
 ./gradlew
 echo "Built packages"
 cp /opt/ringojs/build/distributions/*.zip /opt/out
