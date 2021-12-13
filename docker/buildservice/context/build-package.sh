@@ -2,6 +2,9 @@
 git clone https://github.com/ringo/ringojs.git /opt/ringojs
 cd /opt/ringojs/
 
+# show the summary
+git show --summary
+
 # prepare
 java -version
 ./gradlew
